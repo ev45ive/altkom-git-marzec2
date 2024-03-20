@@ -1,4 +1,4 @@
-# Visual Studio
+﻿# Visual Studio
 File -> Open -> Folder -> New Folder "altkom-git-marzec2" -> Select Folder
 
 View -> Git Changes
@@ -76,3 +76,7 @@ Esc :wq    -- write quit
 git config --global core.editor="????"
 
 git commit -am "Vim Editor"
+
+# Git commit --amend
+Git commit --amend  // VIM 
+Git commit --amend  -m "💩"
