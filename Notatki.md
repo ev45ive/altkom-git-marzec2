@@ -1,9 +1,3 @@
-# Instalacje
-https://git-scm.com/download/win
-
-git --version
-git version 2.43.0.windows.1
-
 # Visual Studio
 File -> Open -> Folder -> New Folder "altkom-git-marzec2" -> Select Folder
 
@@ -12,6 +6,13 @@ Tools -> Options -> International Settings -> English
 
 # Terminal
 View => Terminal   Ctrl+`
+
+# Instalacje
+https://git-scm.com/download/win
+
+git --version
+git version 2.43.0.windows.1
+
 
 # GIT Status
 git status
@@ -32,3 +33,27 @@ Untracked files:
         Notatki.md
 
 nothing added to commit but untracked files present (use "git add" to track)
+
+git status
+On branch master
+nothing to commit, working tree clean
+
+# Git config
+C:\Users\<username>\.gitconfig
+
+
+git config --local --list
+.\.git\config
+
+
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
