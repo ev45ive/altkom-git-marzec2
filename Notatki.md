@@ -57,3 +57,9 @@ Run
 
 to set your account's default identity.
 Omit --global to set the identity only in this repository.
+
+# Git Commit
+git status
+git add plikA plikB zlyplik
+git restore --staged zlyplik
+git commit -m "Opis zmian"
