@@ -63,3 +63,16 @@ git status
 git add plikA plikB zlyplik
 git restore --staged zlyplik
 git commit -m "Opis zmian"
+
+
+# Vim
+https://stackoverflow.com/questions/11828270/how-do-i-exit-vim
+git commit
+Esc :q! Enter  --- quit without saving
+Aborting commit due to empty commit message.
+Esc a      -- append mode
+Esc :wq    -- write quit
+
+git config --global core.editor="????"
+
+git commit -am "Vim Editor"
