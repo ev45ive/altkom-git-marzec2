@@ -1,4 +1,11 @@
-﻿# Visual Studio
+﻿# Instalacje
+https://git-scm.com/download/win
+
+git --version
+git version 2.43.0.windows.1
+
+
+# Visual Studio
 File -> Open -> Folder -> New Folder "altkom-git-marzec2" -> Select Folder
 
 View -> Git Changes
@@ -6,12 +13,6 @@ Tools -> Options -> International Settings -> English
 
 # Terminal
 View => Terminal   Ctrl+`
-
-# Instalacje
-https://git-scm.com/download/win
-
-git --version
-git version 2.43.0.windows.1
 
 
 # GIT Status
