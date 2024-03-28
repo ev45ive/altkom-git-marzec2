@@ -97,3 +97,16 @@ git switch  moj/branch123   ## przestawia HEAD i pliki
 git reset -  ## przestawia etykiete(branch) ale zostawia pliki w changes 
 git reset --hard  ## przestawia etykiete i HEAD - resetuje tez pliki
 
+## Fast forward
+Put this in $HOME/.gitconfig:
+
+[merge]
+    ff = no
+#    commit = no
+
+You can use git-config to do this:
+
+#  git config --global merge.commit no
+  git config --global merge.ff no
+
+
