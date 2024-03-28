@@ -81,3 +81,19 @@ git commit -am "Vim Editor"
 # Git commit --amend
 Git commit --amend  // VIM 
 Git commit --amend  -m "💩"
+
+## Poprawianie
+
+git checkout fe124f345 -- tylko/ten/plik i/ten/plik
+
+git checkout - zagl�da do wersji (przestawia tylko HEAD i czyta pliki) 
+
+git checkout fe124f345  ## detached HEAD + git branch zapamietaj fe124f345
+
+git checkout moj/branch123  ## przestawia HEAD i pliki
+git switch  moj/branch123   ## przestawia HEAD i pliki
+
+
+git reset -  ## przestawia etykiete(branch) ale zostawia pliki w changes 
+git reset --hard  ## przestawia etykiete i HEAD - resetuje tez pliki
+
